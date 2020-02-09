@@ -1,21 +1,27 @@
 .Circles {
-    width: 900px;
-    height: 900px;
-    border: 1px black solid;
+    width: 500px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
+
     margin-left:auto;
     margin-right:auto;
 }
 
 .circle {
-    width: 90%;
-    height: 90%;
-    border: 1px limegreen solid;
-    -webkit-animation: spin 10s linear infinite;
-    -moz-animation: spin 10s linear infinite;
-    animation: spin 10s linear infinite;
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border:1px rgba(0,255,0,0.01) solid;
+    background-color: rgba(0,255,0,0.01);
+    -webkit-animation: spin 40s linear infinite;
+    -moz-animation: spin 40s linear infinite;
+    animation: spin 40s linear infinite;
     border-radius: 200px;
     
 }

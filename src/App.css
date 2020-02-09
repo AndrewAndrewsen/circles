@@ -1,8 +1,16 @@
 .App {
   text-align: center;
   background-color: black;
+  
 }
 
+body {
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
