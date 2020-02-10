@@ -1,6 +1,6 @@
 .Circles {
-    width: 500px;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -17,8 +17,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    border:1px rgba(0,255,0,0.01) solid;
-    background-color: rgba(0,255,0,0.01);
+    border:1px rgba(0,255,0,0.1) solid;
+    /*background-color: rgba(0,255,0,0.01);*/
     -webkit-animation: spin 40s linear infinite;
     -moz-animation: spin 40s linear infinite;
     animation: spin 40s linear infinite;
